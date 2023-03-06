@@ -1,0 +1,30 @@
+html {
+    cursor: none;
+}
+
+#drawing_line {
+    position: relative;
+    z-index: 1500;
+    height: 0;
+}
+
+#drawing_line>svg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#drawing_line>svg .drawing_line_polyline {
+    fill: none;
+    stroke: #745449;
+    stroke-width: 2;
+}
+
+#drawing_line>svg .drawing_line_circle {
+    fill: #745449;
+
+}
