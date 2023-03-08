@@ -25,6 +25,15 @@
 * 	Template Style 
 *
 * ======================================================= */
+
+html{
+	animation: fadein 1.5s;
+}
+@keyframes fadein {
+	0% { opacity: 0; }
+    50% { opacity: 0; }
+	100% { opacity: 1; }
+}
 body {
   font-family: 'Pretendard-Regular', sans-serif;
   font-weight: 500;
