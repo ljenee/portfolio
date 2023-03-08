@@ -9,6 +9,24 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>MERDI MATIN VIDEO</title>
     <style>
+        html {
+            animation: fadein 1.5s;
+        }
+
+        @keyframes fadein {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -18,22 +36,14 @@
             text-decoration: none;
             color: #745449;
         }
-        @keyframes opa{
-            0%{
-                opacity: 0;
 
-            }
-            100%{
-                opacity: 1;
-            }
-        }
+
         body {
-            opacity: 0;
             background: url(../images/grain-background.jpg);
             font-size: 12px;
             line-height: 26px;
             min-width: 1320px;
-            animation: opa 2s 1s linear forwards;
+        
         }
 
         iframe {
