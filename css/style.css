@@ -141,6 +141,11 @@ figure {
   right: 0;
 }
 
+#fh5co-header .overlay video{
+  display: block;
+  width: 100%;
+}
+
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
   width: 100%;
@@ -204,6 +209,13 @@ figure {
   background: #fff;
   margin-right: -30px;
 }
+
+@media screen and (max-width: 1903px) {
+  #fh5co-header .overlay video{
+    width: auto;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
 
